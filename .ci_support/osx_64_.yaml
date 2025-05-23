@@ -27,7 +27,7 @@ libidn2:
 macos_machine:
 - x86_64-apple-darwin13.4.0
 nettle:
-- '3.9'
+- '3.10'
 p11_kit:
 - '0.24'
 target_platform:

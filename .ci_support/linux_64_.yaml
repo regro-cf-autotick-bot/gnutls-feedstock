@@ -25,7 +25,7 @@ gnutls:
 libidn2:
 - '2'
 nettle:
-- '3.9'
+- '3.10'
 p11_kit:
 - '0.24'
 target_platform:
