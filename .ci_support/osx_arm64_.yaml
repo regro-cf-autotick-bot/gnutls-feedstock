@@ -27,7 +27,7 @@ libidn2:
 macos_machine:
 - arm64-apple-darwin20.0.0
 nettle:
-- '3.9'
+- '3.10'
 p11_kit:
 - '0.24'
 target_platform:
