@@ -198,4 +198,5 @@ Feedstock Maintainers
 * [@sachalau](https://github.com/sachalau/)
 * [@scopatz](https://github.com/scopatz/)
 * [@sdvillal](https://github.com/sdvillal/)
+* [@traversaro](https://github.com/traversaro/)
 
