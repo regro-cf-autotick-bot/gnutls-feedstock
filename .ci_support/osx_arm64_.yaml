@@ -29,7 +29,7 @@ macos_machine:
 nettle:
 - '3.10'
 p11_kit:
-- '0.25'
+- '0.26'
 target_platform:
 - osx-arm64
 zip_keys:
