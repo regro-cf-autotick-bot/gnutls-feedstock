@@ -42,9 +42,6 @@ if [[ "$CONDA_BUILD_CROSS_COMPILATION" != "1" ]]; then
       # commenting
       # sed -i.back 's,ocsp-tests/ocsp-must-staple-connection.sh,,g' tests/Makefile
    fi
-   # mini-dtls-fragments fails to link with "undefined reference to rpl_free"
-   # on linux-64 and osx-64 with gnutls 3.8.13. Skip it.
-   sed -i.back 's,mini-dtls-fragments,,g' tests/Makefile
    make -j${CPU_COUNT} check -k V=1 || {
       echo CONDA-FORGE TEST OUTPUT;
       cat test-output.log;

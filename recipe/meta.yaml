@@ -11,6 +11,10 @@ source:
   patches:
     # https://gitlab.com/gnutls/gnutls/-/issues/660
     - correct_ssl_test.patch
+    # mini-dtls-fragments uses gnulib's stdlib.h replacement (free -> rpl_free)
+    # via -I gl, but its LDADD doesn't include ../gl/libgnu.la, so the test
+    # fails to link on linux-64 and osx-64.
+    - link_mini_dtls_fragments_with_libgnu.patch
 
 build:
   number: 0
